@@ -18,7 +18,7 @@ Source: `resend/resend-skills`
 - It includes `resend` (send email through Resend), `resend-cli`, `react-email` (build email designs), `email-best-practices` and `agent-email-inbox`.
 - It has only 211 stars, but it's the official source, it was updated this week, and its license is MIT. Resend's main email-design project (`resend/react-email`) has about 19,900 stars, so the publisher is well established.
 
-Runner-up for writing: `coreyhaines31/marketingskills`. One person publishes it, but it has about 59,000 stars, and its `email-sequence`, `emails` and `copywriting` skills were strong results. Use it if Anthropic's skills feel too general.
+Runner-up for writing: `coreyhaines31/marketingskills`. One person publishes it, but it has about 59,000 stars, and its `emails` and `copywriting` skills were strong results (`emails` was called `email-sequence` before May 2026, and skills.sh still lists the old name). Use it if Anthropic's skills feel too general.
 
 ## Avoid these
 

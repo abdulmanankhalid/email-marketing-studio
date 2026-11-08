@@ -15,3 +15,15 @@ This is a practice project from an AI engineering course. It shows how to plan a
 - `campaigns/` holds campaign plans and the emails written for each one.
 - `notes/` holds research and decisions about how the studio works.
 - `.claude/` holds the email rules and the `personalize` skill.
+
+## Plugin
+
+The tools from this studio are shared as a Claude Code plugin called studio-kit:
+https://github.com/abdulmanankhalid/studio-kit
+
+To install it, type these in Claude Code:
+
+```
+/plugin marketplace add abdulmanankhalid/studio-kit
+/plugin install studio-kit@studio-kit
+```

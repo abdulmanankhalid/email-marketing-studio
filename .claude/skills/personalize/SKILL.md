@@ -51,7 +51,7 @@ Do this for every file in `<campaign folder>/emails/*.md` and every group.
 **If the email already has marked group sections**, like `[Version for small business owners]`:
 
 - Keep only the section for this group. Delete the other groups' sections.
-- Delete the `[Version for ...]` marker line itself.
+- Delete the `[Version for ...]` marker lines and the `[End of versions]` line.
 - That section already counts as the changed example. Don't change another one.
 
 **Before you save each copy, check:**

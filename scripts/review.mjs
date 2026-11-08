@@ -32,9 +32,30 @@ if (!existsSync(join(root, folder))) fail(`folder not found: ${folderArg}`);
 // Minify so the schema passes cleanly as one command-line argument.
 const schema = JSON.stringify(JSON.parse(readFileSync(schemaPath, "utf8")));
 
-const prompt =
+// If the last review was of this same folder, pass its findings along so we don't repeat them.
+function previousFindings() {
+  if (!existsSync(outPath)) return null;
+  try {
+    const saved = JSON.parse(readFileSync(outPath, "utf8"));
+    if (saved.folder === folder && Array.isArray(saved.findings)) return saved.findings;
+  } catch {
+    // Unreadable file: treat it as no earlier review.
+  }
+  return null;
+}
+
+const previous = previousFindings();
+
+let prompt =
   `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. ` +
   `Report only real problems.`;
+
+if (previous) {
+  prompt +=
+    `\n\nThese are findings from the last review. Report only problems that are new or still not fixed. ` +
+    `Don't repeat ones that have been fixed.\n\n` +
+    JSON.stringify(previous, null, 2);
+}
 
 const run = spawnSync(
   "claude",
@@ -65,13 +86,15 @@ const output = result?.structured_output;
 if (!output || !Array.isArray(output.findings)) fail("no structured_output.findings in claude's result");
 
 mkdirSync(dirname(outPath), { recursive: true });
-writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n");
+// Save the folder too, so the next run knows whether these findings apply.
+writeFileSync(outPath, JSON.stringify({ folder, findings: output.findings }, null, 2) + "\n");
 
 const count = { high: 0, medium: 0, low: 0 };
 for (const f of output.findings) count[f.severity] = (count[f.severity] ?? 0) + 1;
 
 console.log(
-  `Reviewed ${folder}: ${output.findings.length} findings ` +
+  `Reviewed ${folder}${previous ? ` (with ${previous.length} earlier findings)` : ""}: ` +
+  `${output.findings.length} findings ` +
   `(${count.high} high, ${count.medium} medium, ${count.low} low). Saved review/findings.json`,
 );
 

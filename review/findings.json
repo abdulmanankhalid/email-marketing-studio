@@ -1,18 +1,26 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/agent-launch/groups/small-business/emails/03-how-it-works.md",
-      "line": 6,
-      "severity": "low",
-      "problem": "The opening line limits the group to \"a salon, clinic, cafe or repair shop\". The plan defines this group as clinics, salons, trades and consultants, so a tradesperson or consultant on the list is told the email isn't about them. \"Cafe\" and \"repair shop\" are not in the plan.",
-      "fix": "Change to: \"You might be wondering what working with us looks like when you run a small local or service business. Here it is, step by step.\""
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 2,
+      "severity": "high",
+      "problem": "Still not fixed. The preview line uses \"Last chance\" and a closing-list deadline. That is pressure language the voice guide bans.",
+      "fix": "Use a calm preview that names the benefit, for example: \"Preview: An AI assistant built around how your business works.\""
     },
     {
-      "file": "campaigns/agent-launch/groups/small-business/emails/02-what-it-could-do.md",
-      "line": 6,
-      "severity": "low",
-      "problem": "The example list \"salons, clinics, cafes and repair shops\" doesn't match the plan's audience (clinics, salons, trades, consultants). It leaves out trades and consultants, who are part of this group.",
-      "fix": "Change to: \"A few days ago I shared that we're open for small businesses like salons, clinics, trades and consultants.\""
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 8,
+      "severity": "high",
+      "problem": "Still not fixed. \"Last chance\" and \"act now\" are banned pressure phrases. \"Spots are almost gone\" is a scarcity claim we cannot back up.",
+      "fix": "Delete the line, or swap in a friendly invitation: \"If this sounds useful, let's talk about what you need.\""
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 12,
+      "severity": "high",
+      "problem": "Still not fixed. The email has a second link (\"Read our case studies\"), but each email may have only one main link. Case studies would also need client results we can prove.",
+      "fix": "Delete line 12 so that [Book a free chat](https://quaror.example/agents) is the the only link."
     }
   ]
 }

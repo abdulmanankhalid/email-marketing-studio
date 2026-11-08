@@ -1,5 +1,5 @@
-Subject: We're open, and you get first pick
-Preview: You joined our waitlist for AI assistants built for your business. Here's what's next.
+Subject: Could you get a few hours back each week?
+Preview: We're open. You joined our waitlist for AI assistants built for your business.
 
 Hi {{first_name}},
 

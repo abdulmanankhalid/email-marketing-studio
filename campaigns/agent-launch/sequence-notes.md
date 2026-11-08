@@ -8,7 +8,7 @@ Notes for sending the first four emails of the "Built for Your Business" launch.
 
 | # | File | Subject | Send | Who gets it | Main link |
 |---|---|---|---|---|---|
-| 1 | `01-were-open.md` | We're open, and you get first pick | Tue 5 Jan | Everyone on the waitlist | Book your free setup call |
+| 1 | `01-were-open.md` | Could you get a few hours back each week? | Tue 5 Jan | Everyone on the waitlist | Book your free setup call |
 | 2 | `02-what-it-could-do.md` | 3 jobs an AI assistant could do for you | Thu 7 Jan | Everyone who hasn't booked | Book a free setup call |
 | 3 | `03-how-it-works.md` | How it works, in 4 simple steps | Mon 11 Jan | Everyone who hasn't booked | Book a free setup call |
 | 4 | `04-your-questions.md` | Your questions about AI assistants, answered | Thu 14 Jan | Everyone who hasn't booked | Book a free setup call |
@@ -82,7 +82,7 @@ Emails 3 and 4 are the same for everyone.
 
 Keep tests simple. With 500 people, small differences won't mean much, so only trust a clear winner.
 
-1. **Subject line for Email 1.** Send batch one with "We're open, and you get first pick" and batch two with "Your first pick of call times is here". Compare open rates.
+1. **Subject line for Email 1.** Send batch one with "Could you get a few hours back each week?" and batch two with "We're open, and you get first pick". Compare open rates.
 2. **Reply vs. link in Email 2.** Count how many people book from the link and how many reply. This shows which way in your list prefers.
 3. **Email 4 length.** If replies show one worry comes up again and again, try a shorter Email 4 that answers just that one.
 

@@ -71,7 +71,7 @@ When we have real client results we can prove, we'll add them in later campaigns
 
 **Message by group (first lines of emails):**
 - **Small business owners:** "If you spend your evenings answering the same customer questions, this is for you."
-- **Online store owners:** "'Where's my order?' Imagine an assistant that answers that for you, while you check anything important."
+- **Online store owners:** "'Where's my order?' Imagine an assistant that answers that for you. Anything important still comes to you to check."
 - **Agencies (decided: cover both uses):** "An AI assistant can help your own team with client updates and reports. It can also be something you offer your clients. Which interests you more? Just reply and tell me." The replies tell us which way to take the agency offer.
 
 ---

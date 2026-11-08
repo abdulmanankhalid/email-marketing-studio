@@ -3,7 +3,7 @@ Preview: Simple examples for your kind of business. You stay in control of each 
 
 Hi {{first_name}},
 
-On Tuesday I shared that we're open. Today I want to show you what an AI assistant could do in a business like yours.
+A few days ago I shared that we're open. Today I want to show you what an AI assistant could do in a business like yours.
 
 These are examples, not promises. Every assistant we build is shaped around your own tasks. But they give you a feel for it.
 
@@ -39,7 +39,7 @@ Want to see what this could look like for you? On a free 30-minute call, we'll p
 
 Or just reply and tell me the task you repeat most. I'd like to hear it.
 
-Talk soon,
+Happy to help,
 Engr. Abdul Manan
 AI Agent Builder
 

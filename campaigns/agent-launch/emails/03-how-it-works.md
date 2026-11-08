@@ -22,7 +22,7 @@ You might be wondering what working with us looks like. Here it is, step by step
 
 You don't need to learn the tech. You just need to know your business, and you already do.
 
-There's a monthly fee for the build and ongoing care. Every business is different, so we'll give you a clear price on the call. The call itself is free.
+Every business is different, so we'll give you a clear price on the call. The call itself is free.
 
 As a waitlist member, you still get first pick of call times and build slots.
 

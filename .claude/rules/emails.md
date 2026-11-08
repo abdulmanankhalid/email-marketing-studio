@@ -31,8 +31,8 @@ Every email file must follow these rules, in this order from top to bottom.
 
 ## 4. Sign-off
 
-- End the email body with our sign-off from `brand/voice.md`: a short, warm line that invites a reply, then the name.
-- The standard sign-off is:
+- End the email body with a short, warm line that invites a reply. For example: "Just reply to this email if you have questions."
+- Then use this sign-off in every campaign email, exactly as written, so the emails in a campaign match. (`brand/voice.md` lists other closings like "Talk soon," for one-off replies, not campaign emails.)
 
 Happy to help,
 Engr. Abdul Manan
@@ -47,3 +47,11 @@ Quaror, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
 - Write the sign-off and footer as plain text. Do not put them inside a code block.
 - Keep `{{company_address}}` and `{{unsubscribe_url}}` as they are. Never fill in real values.
+
+## Writing numbers
+
+This applies to the whole email, not one place in it.
+
+- In subject and preview lines, use digits. For example: "3 jobs", "4 simple steps".
+- In the email body, spell out one to nine. For example: "three sentences".
+- Always use digits for times, lengths of time, and labels. For example: "9pm", "30-minute call", "Step 1", "Example 2".
